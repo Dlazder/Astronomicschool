@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Profile</title>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    
+    <header class="header">
+        <nav class="nav">
+            <a class="header__item" href="./index.html">Главная</a>
+            <a class="header__item" href="./html/other/about us.html">О проекте</a>
+            <a class="header__item" href="./html/courses/courses.html">Видеоуроки</a>
+            <a class="header__item" href="./html/other/maintest.html">Проверить себя</a>
+        </nav>
+
+        <div class="flex-container">
+            <a href="./html/other/profile.html">
+                <div class="user">
+                    <img class="user-avatar" src="./assets/images/icons/user-ico.svg">
+                    <div class="user-name">Гость</div>
+                </div>
+            </a> <!-- Profile -->
+
+            <div class="burger__outer">
+                <div class="burger">
+                    
+                </div>
+            </div>
+            <div class="burger__nav hidden">
+                <a class="burger-link" class="header__item" href="/index.html">Главная</a>
+                <a class="burger-link" href="./html/other/about us.html">О проекте</a>
+                <a class="burger-link" href="./html/courses/courses.html">Видеоуроки</a>
+                <a class="burger-link" href="./html/other/maintest.html">Проверить себя</a>
+            </div>
+        </div>
+        
+
+    </header>
+
+    <div class="toggle">
+        <div class="circle"></div>
+    </div>
+
+    <div class="container">
+        <div class="statistics">
+
+            <div class="progress-bar">
+                <div class="progress-fill"></div>
+                <div class="mask">
+                    <div class="percent">0%</div>
+                    <div class="progress-bar-description">
+                        <div class="progress-bar-description__inner">
+                            Пройдено тестов
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="progress-bar">
+                <div class="progress-fill-2"></div>
+                <div class="mask">
+                    <div class="percent-2">0%</div>
+                    <div class="progress-bar-description">
+                        <div class="progress-bar-description__inner">
+                           Средний бал
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="progress-bar">
+                <div class="progress-fill-3"></div>
+                <div class="mask">
+                    <div class="percent-3">0%</div>
+                    <div class="progress-bar-description">
+                        <div class="progress-bar-description__inner">
+                           Общий прогресс
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- Statistics -->
+    </div>
+    
+    <div class="change-name">
+        <div class="container">
+            Сменить имя:<br>
+            <input type="text"> <br>
+            <button class="btn btn--left change">Подтвердить</button>
+        </div>
+    </div>
+
+    <script src="../../assets/js/progress-bar.js"></script>
+    <script src="../../assets/js/global-vars.js"></script>
+    <script src="../../assets/js/profile.js"></script>
+    <script src="../../assets/js/theme.js"></script>
+    <script src="../../assets/js/burger.js"></script>
+</body>
+</html>
