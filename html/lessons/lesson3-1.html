@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>lesson 3-1</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="/Astronomicschool/assets/css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <link href="https://fonts.googleapis.com/css2?family=Kolker+Brush&family=Roboto:wght@100&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="/Astronomicschool/assets/images/favicon.ico">
+    </head>
+    <body>
+
+        <header class="header">
+            <nav class="nav">
+                <a class="header__item" href="/Astronomicschool/index.html">Главная</a>
+                <a class="header__item" href="/Astronomicschool/html/other/about us.html">О проекте</a>
+                <a class="header__item" href="/Astronomicschool/html/courses/courses.html">Видеоуроки</a>
+                <a class="header__item" href="/Astronomicschool/html/other/maintest.html">Проверить себя</a>
+            </nav>
+
+            <div class="flex-container">
+                <a href="/Astronomicschool/html/other/profile.html">
+                    <div class="user">
+                        <img class="user-avatar" src="/Astronomicschool/assets/images/icons/user-ico.svg">
+                        <div class="user-name">Гость</div>
+                    </div>
+                </a> <!-- Profile -->
+    
+                <div class="burger__outer">
+                    <div class="burger">
+                        
+                    </div>
+                </div>
+                <div class="burger__nav hidden">
+                    <a class="burger-link" href="/Astronomicschool/index.html">Главная</a>
+                    <a class="burger-link" href="/Astronomicschool/html/other/about us.html">О проекте</a>
+                    <a class="burger-link" href="/Astronomicschool/html/courses/courses.html">Видеоуроки</a>
+                    <a class="burger-link" href="/Astronomicschool/html/other/maintest.html">Проверить себя</a>
+                </div>
+            </div>
+            
+        </header>
+
+        <div class="lesson__block"> 
+            <div class="container">
+
+                <button class="btn btn--showText">Конспект</button>
+                <div class="lesson__text">
+                    К середине XVII века завершился описательный период изучения движения планет и была выявлена кинематика их движения. Но динамика движения планет всё ещё оставалась загадкой. В частности, возникли новые вопросы. Во-первых, почему планеты движутся, что их заставляет обращаться вокруг Солнца? А во-вторых, почему наша планетная система является устойчивой?
+                    Учёными была сформулирована важная механическая задача о построении траектории планеты.
+                    <br><br>
+                    Первым, кто попытался её решить, был Роберт Гук. В основе его решения лежало три предположения. Первое заключалось в том, что сила притяжения небесных тел направлена к их центру. При этом будут притягиваться не только части небесного тела, но и другие небесные тела, находящиеся в сфере действия силы.
+                    Второе предположение вытекало из закона инерции Галилея: любое тело, участвующее в прямолинейном движении, будет двигаться по прямой до тех пор, пока не отклонится в своём движении другой действующей силой и не будет вынуждено описывать круг, эллипс или другую сложную траекторию.
+                    И наконец, Гук предположил, что силы притяжения действуют тем больше, чем ближе тело, на которое они действуют, к центру притяжения.
+                    Спустя десять лет английский астроном Эдмунд Галлей показал, что сила притяжения убывает пропорционально квадрату расстояния:  
+                    Все казалось предугаданным. Но механическая задача не была решена, поскольку учёным не хватало понятия массы и законов динамики, хотя они уже и были сформулированы Ньютоном. Невиданная способность выделять в сложности явлений физическую основу и математический гений Ньютона позволили ему решить эту задачу до конца.
+                    <br><br>
+                    1. Закон всемирного тяготения<br>
+                    Согласно закону всемирного тяготения, изученному в курсе физики: <br>
+                    все тела во Вселенной притягиваются друг к другу с силой, прямо пропорциональной произведению их масс и обратно пропорциональной квадрату расстояния между ними
+                    Открытию закона всемирного тяготения во многом способствовали законы движения планет, сформулированные Кеплером, и другие достижения астрономии XVII в. Так, знание расстояния до Луны позволило Исааку Ньютону (1643—1727) доказать тождественность силы, удерживающей Луну при её движении вокруг Земли, и силы, вызывающей падение тел на Землю.
+                    Ведь если сила тяжести меняется обратно пропорционально квадрату расстояния, как это следует из закона всемирного тяготения, то Луна, находящаяся от Земли на расстоянии примерно 60 её радиусов, должна испытывать ускорение в 3600 раз меньшее, чем ускорение силы тяжести на поверхности Земли, равное 9,8 м/с2. Следовательно, ускорение Луны должно составлять 0,0027 м/с2.
+                    Итак, сила взаимодействия планет и Солнца удовлетворяет закону всемирного тяготения.
+                </div>
+
+            </div>  <!-- Container -->
+        </div> <!-- Lesson-block-->
+
+        <div class="test">
+            <div class="container">
+                <div class="test__title">Тест по Астрономии тема: 3.1</div>
+    
+                <div class="question">
+                    Введите ваше имя:
+                    <br><input type="text" id="user-name" maxlength="17" placeholder="Ваше имя"><br>
+                    1-Какой астроном сформулировал законы движения планет?
+                    <label><input type="radio" name="1" id="x1">Исаак Ньютон.</label>
+                    <label><input type="radio" name="1" id="x2">Эдмунд Галлей.</label>
+                    <label><input type="radio" name="1" id="x3">Иоганн Кеплер.</label>
+                </div>
+    
+                <div class="question">
+                    2-Чему равно ускорение силы тяжести на поверхности Земли?
+                    <label><input type="radio" name="2" id="x4">9,8 м/с2.</label>
+                    <label><input type="radio" name="2" id="x5">8,7 м/с2.</label>
+                    <label><input type="radio" name="2" id="x6">10,5 м/с2.</label>
+                </div>
+    
+                <div class="question">
+                    3-На каком расстоянии находится Луна от Земли (в ее радиусах)?
+                    <label><input type="radio" name="3" id="x7">60.</label>
+                    <label><input type="radio" name="3" id="x8">70.</label>
+                    <label><input type="radio" name="3" id="x9">50.</label>
+                </div>
+    
+                <div class="question">
+                    4-Чему равно ускорение Луны?
+                    <label><input type="radio" name="4" id="x10">0,0027 м/с2.</label>
+                    <label><input type="radio" name="4" id="x11">0,0037 м/с2.</label>
+                    <label><input type="radio" name="4" id="x12">0,0017 м/с2.</label>
+                </div>
+    
+                <div class="question">
+                    5-Все тела во Вселенной .... с силой, прямо пропорциональной произведению их масс и обратно пропорциональной квадрату расстояния между ними.
+                    <label><input type="radio" name="5" id="x13">Отталкиваются друг от друга</label>
+                    <label><input type="radio" name="5" id="x14">Никаким образом не взаимодействуют.</label>
+                    <label><input type="radio" name="5" id="x15">Притягиваются друг к другу</label>
+                </div>
+    
+                <button class="btn btn--left checkAnswers">Проверить ответы</button>
+    
+            </div> <!-- Container -->
+        </div>
+    
+        <div class="test-result hidden">
+            <div class="container">
+                <div class="test__title">Результаты теста</div>
+                <div class="result__count"></div>
+                <button class="btn showTrueAnswers">Показать правильные ответы</button>
+    
+                <div class="test-result__true-answers hidden">
+                    <div class="question">
+                        1-Какой астроном сформулировал законы движения планет?
+                        <label>Исаак Ньютон.</label>
+                        <label>Эдмунд Галлей.</label>
+                        <label class="anst">Иоганн Кеплер.</label>
+                    </div>
+        
+                    <div class="question">
+                        2-Чему равно ускорение силы тяжести на поверхности Земли?
+                        <label class="anst">9,8 м/с2.</label>
+                        <label>8,7 м/с2.</label>
+                        <label>10,5 м/с2.</label>
+                    </div>
+        
+                    <div class="question">
+                        3-На каком расстоянии находится Луна от Земли (в ее радиусах)?
+                        <label class="anst">60.</label>
+                        <label>70.</label>
+                        <label>50.</label>
+                    </div>
+        
+                    <div class="question">
+                        4-Чему равно ускорение Луны?
+                        <label class="anst">0,0027 м/с2.</label>
+                        <label>0,0037 м/с2.</label>
+                        <label>0,0017 м/с2.</label>
+                    </div>
+        
+                    <div class="question">
+                        5-Все тела во Вселенной .... с силой, прямо пропорциональной произведению их масс и обратно пропорциональной квадрату расстояния между ними.
+                        <label>Отталкиваются друг от друга</label>
+                        <label>Никаким образом не взаимодействуют.</label>
+                        <label class="anst">Притягиваются друг к другу.</label>
+                    </div>
+    
+                </div>
+            </div> <!-- Container -->
+        </div>
+
+        <div class="greeting-screen">
+            <div class="container">
+                <div class="greeting__title">Astronomic<br>School</div>
+    
+                <div class="greeting-name"></div>
+                <div class="btn btn--greeting">Начать</div>
+            </div> <!-- Container -->
+        </div>
+
+        <footer>
+            <div class="container">
+                Astronomic School &copy; 2022
+            </div>
+        </footer>
+        
+        <script src="/Astronomicschool/assets/js/global-vars.js"></script>
+        <script src="/Astronomicschool/assets/js/theme.js"></script>
+        <script src="/Astronomicschool/assets/js/show-text.js"></script>
+        <script src="/Astronomicschool/assets/js/greeting.js"></script>
+        <script src="/Astronomicschool/assets/js/profile.js"></script>
+        <script src="/Astronomicschool/assets/js/burger.js"></script>
+        <script src="/Astronomicschool/assets/js/test__3-1.js"></script>
+    </body>
+</html>

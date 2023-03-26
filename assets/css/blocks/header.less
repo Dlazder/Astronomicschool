@@ -1,0 +1,34 @@
+// main: ../style.less
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 25px;
+    width: 100%;
+}
+nav {
+    margin: 0 auto;
+    text-align: center;
+    padding: 25px 60px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    &:hover {
+        cursor: default;
+    }
+}
+.header__item {
+    color: #fff;
+    
+    padding: 10px;
+    font-size: 20px;
+
+    transition: .2s linear;
+
+    &:hover {
+        color: rgb(189, 244, 255);
+    }
+    z-index: 2;
+}

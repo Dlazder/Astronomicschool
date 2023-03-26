@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>lesson 2-2</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="/Astronomicschool/assets/css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <link href="https://fonts.googleapis.com/css2?family=Kolker+Brush&family=Roboto:wght@100&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="/Astronomicschool/assets/images/favicon.ico">
+    </head>
+
+
+        <header class="header">
+            <nav class="nav">
+                <a class="header__item" href="/Astronomicschool/index.html">Главная</a>
+                <a class="header__item" href="/Astronomicschool/html/other/about us.html">О проекте</a>
+                <a class="header__item" href="/Astronomicschool/html/courses/courses.html">Видеоуроки</a>
+                <a class="header__item" href="/Astronomicschool/html/other/maintest.html">Проверить себя</a>
+            </nav>
+
+            <div class="flex-container">
+                <a href="/Astronomicschool/html/other/profile.html">
+                    <div class="user">
+                        <img class="user-avatar" src="/Astronomicschool/assets/images/icons/user-ico.svg">
+                        <div class="user-name">Гость</div>
+                    </div>
+                </a> <!-- Profile -->
+    
+                <div class="burger__outer">
+                    <div class="burger">
+                        
+                    </div>
+                </div>
+                <div class="burger__nav hidden">
+                    <a class="burger-link" href="/Astronomicschool/index.html">Главная</a>
+                    <a class="burger-link" href="/Astronomicschool/html/other/about us.html">О проекте</a>
+                    <a class="burger-link" href="/Astronomicschool/html/courses/courses.html">Видеоуроки</a>
+                    <a class="burger-link" href="/Astronomicschool/html/other/maintest.html">Проверить себя</a>
+                </div>
+            </div>
+            
+        </header>
+
+        <div class="lesson__block">
+            <div class="container">
+                
+                <button class="btn btn--showText">Конспект</button>
+                <div class="lesson__text">
+                    В астрономии нет единого универсального способа определения расстояний. По мере перехода от близких небесных тел к более далеким одним методам определения расстояний сменяют другие, служащие, как правило, основой для последующих. Точность оценки расстояний ограничивается либо точностью самого грубого из методов, либо точностью измерения астрономической единицы длины (а. е.).
+                    <br><br>
+                    1-й способ: (известен) По третьему закону Кеплера можно определить расстояние до тел СС, зная периоды обращений и одно из расстояний.
+                    2-й способ: Определение расстояний до Меркурия и Венеры в моменты элонгации (из прямоугольного треугольника по углу элонгации).
+                    В рамках Солнечной системы расстояния до небесных тел определяются как геоцентрические, т.е. от центра Земли до центра небесного тела. 
+                    <br><br>
+                    Так как Земля имеет форму сфероида, то во избежание разногласий в определении горизонтальных параллаксов необходимо вычислять их значения для определенного радиуса Земли. За такой радиус принят экваториальный радиус Земли R = 6378 км, а горизонтальные параллаксы, вычисленные для него, называются горизонтальными экваториальными параллаксами . Именно эти параллаксы тел Солнечной системы приводятся во всех справочных пособиях.
+                    <br><br>
+                    Обратимся к истории: <br>
+                    1. Впервые расстояния до небесных тел (Луны, Солнца, планет) оценивает Аристотель (384-322, Др. Греция) в 360г до НЭ в книге «О небе» →слишком не точно, например радиус Земли в 10000 км.
+                    <br><br>
+                    2. В 265г до НЭ Аристарх Самосский (310-230, Др. Греция) в работе «О величине и расстоянии Солнца и Луны» определяет расстояние через лунные фазы. Так расстояния у него до Солнца. Радиус Луны определил в 7/19 радиуса Земли, а Солнца в 6,3 радиусов Земли (на самом деле в 109 раз). На самом деле угол не 87º а 89º52' и поэтому Солнце дальше Луны в 400 раз. Предложенные расстояния использовались многие столетия астрономами.
+                    <br><br>
+                    3. С изобретением Квантовых генераторов (лазера) в 1969г произведена первая лазерная локация Луны (зеркало для отражения лазерного луча на Луне установили астронавты США «Ароllо - 11» 20.07.69г), точность измерения составили ±30 см.
+
+                </div>
+
+            </div>  <!-- Container -->
+        </div> <!-- Lesson-block-->
+
+        <div class="test"> 
+            <div class="container"> 
+                <div class="test__title">Тест по Астрономии тема: 2.2</div> 
+                
+                <div class="question"> 
+                Введите ваше имя: 
+                <br><input type="text" id="user-name" maxlength="17" placeholder="Ваше имя"><br> 
+                1-По какому принципу (в рамках солнечной системы) рассчитывается расстояние между объектами? 
+                <label><input type="radio" name="1" id="x1">От центра Земли до центра небесного тела.</label> 
+                <label><input type="radio" name="1" id="x2">От поверхности Земли до поверхности другой планеты.</label> 
+                <label><input type="radio" name="1" id="x3">От орбиты Земли до орбиты небесного тела.</label> 
+                </div> 
+                
+                <div class="question"> 
+                2-Экваториальный радиус Земли равен- 
+                <label><input type="radio" name="2" id="x4">6378 км.</label> 
+                <label><input type="radio" name="2" id="x5">3396 км.</label> 
+                <label><input type="radio" name="2" id="x6">6052 км.</label> 
+                </div> 
+                
+                <div class="question"> 
+                3 - НАДО ИСПРАВИТЬ 
+                <label><input type="radio" name="3" id="x7">90 градусов</label> 
+                <label><input type="radio" name="3" id="x8">Меньше 90 градусов</label> 
+                <label><input type="radio" name="3" id="x9">Больше 90 градусов</label> 
+                </div>
+
+                <div class="question">
+                4- Как Аристарх Самосский определял расстояние от Луны до Солнца? 
+                <label><input type="radio" name="4" id="x10">Определял через лунные фазы.</label> 
+                <label><input type="radio" name="4" id="x11">Вычислял при помощи данных из телескопа.</label> 
+                </div> 
+                
+                <div class="question"> 
+                5-Что позволило в 1969г. произвести лазерную локацию Луны? 
+                <label><input type="radio" name="5" id="x12">Квантовый генератор.</label> 
+                <label><input type="radio" name="5" id="x13">Более мощное увеличительное стекло.</label> 
+                <label><input type="radio" name="5" id="x14">Присутствие астронавтов Apollo 11 на Луне.</label> 
+                </div> 
+                
+                <button class="btn btn--left checkAnswers">Проверить ответы</button> 
+            </div> <!-- Container -->
+        </div> 
+            
+        <div class="test-result hidden"> 
+            <div class="container">
+                <div class="test__title">Результаты теста</div> 
+                <div class="result__count"></div> 
+                <button class="btn showTrueAnswers">Показать правильные ответы</button> 
+                
+                <div class="test-result__true-answers hidden"> 
+                <div class="question"> 
+                1-По какому принципу (в рамках солнечной системы) рассчитывается расстояние между объектами? 
+                <label class="anst">От центра Земли до центра небесного тела.</label> 
+                <label>От поверхности Земли до поверхности другой планеты.</label> 
+                <label>От орбиты Земли до орбиты небесного тела.</label> 
+                </div> 
+                
+                <div class="question"> 
+                2-Экваториальный радиус Земли равен- 
+                <label class="anst">6378 км.</label> 
+                <label>3396 км.</label> 
+                <label>6052 км.</label> 
+                </div> 
+                
+                <div class="question"> 
+                3-Каким должен быть угол между планетными телами и земной точкой что бы планета находилась в квадратуре? 
+                <label class="anst">90 градусов</label> 
+                <label>Меньше 90 градусов</label> 
+                <label>Больше 90 градусов</label> 
+                </div> 
+                
+                <div class="question"> 
+                4- Как Аристарх Самосский определял расстояние от Луны до Солнца? 
+                <label class="anst">Определял через лунные фазы.</label> 
+                <label>Вычислял при помощи данных из телескопа.</label> 
+                </div> 
+                
+                <div class="question"> 
+                5-Что позволило в 1969г. произвести лазерную локацию Луны? 
+                <label class="anst">Квантовый генератор.</label> 
+                <label>Более мощное увеличительное стекло.</label> 
+                <label>Присутствие астронавтов Apollo 11 на Луне.</label> 
+                </div>
+
+                </div>
+            </div> <!-- Container --> 
+        </div>
+
+        <footer>
+            <div class="container">
+                Astronomic School &copy; 2022
+            </div>
+        </footer>
+
+        <div class="greeting-screen">
+            <div class="container">
+                <div class="greeting__title">Astronomic<br>School</div>
+    
+                <div class="greeting-name"></div>
+                <div class="btn btn--greeting">Начать</div>
+            </div> <!-- Container -->
+        </div>
+        
+        <script src="/Astronomicschool/assets/js/global-vars.js"></script>
+        <script src="/Astronomicschool/assets/js/theme.js"></script>
+        <script src="/Astronomicschool/assets/js/show-text.js"></script>
+        <script src="/Astronomicschool/assets/js/greeting.js"></script>
+        <script src="/Astronomicschool/assets/js/profile.js"></script>
+        <script src="/Astronomicschool/assets/js/burger.js"></script>
+        <script src="/Astronomicschool/assets/js/test__2-2.js"></script>
+    </body>
+</html>
