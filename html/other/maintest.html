@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>lessons</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="shortcut icon" href="/Astronomicschool/assets/images/favicon.ico">
+    <link rel="stylesheet" href="/Astronomicschool/assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kolker+Brush&family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header class="header">
+        <nav class="nav">
+            <a class="header__item" href="/Astronomicschool/index.html">Главная</a>
+            <a class="header__item" href="/Astronomicschool/html/other/about us.html">О проекте</a>
+            <a class="header__item" href="/Astronomicschool/html/courses/courses.html">Курсы</a>
+            <a class="header__item" href="/Astronomicschool/html/other/maintest.html">Проверить себя</a>
+        </nav>
+
+        <div class="flex-container">
+            <a href="/Astronomicschool/html/other/profile.html">
+                <div class="user">
+                    <img class="user-avatar" src="/Astronomicschool/assets/images/icons/user-ico.svg">
+                    <div class="user-name">Гость</div>
+                </div>
+            </a> <!-- Profile -->
+
+            <div class="burger__outer">
+                <div class="burger">
+                    
+                </div>
+            </div>
+            <div class="burger__nav hidden">
+                <a class="burger-link" href="/Astronomicschool/index.html">Главная</a>
+                <a class="burger-link" href="/Astronomicschool/html/other/about us.html">О проекте</a>
+                <a class="burger-link" href="/Astronomicschool/html/courses/courses.html">Курсы</a>
+                <a class="burger-link" href="/Astronomicschool/html/other/maintest.html">Проверить себя</a>
+            </div>
+        </div>
+        
+
+    </header>
+
+    <h1 class="lessons__h1">Итоговый тест</h1>
+
+    <div class="test">
+        <div class="container">
+            <div class="test__title">Итоговый тест</div>
+
+            <div class="question">
+                Введите ваше имя:
+                <br><input type="text" id="user-name" maxlength="17" placeholder="Ваше имя"><br>
+                1-Система мира-
+                <label><input type="radio" name="1" id="x1">Это представление о расположении в пространстве и движении небесных тел</label>
+                <label><input type="radio" name="1" id="x2">Это представление о масштабах вселенной</label>
+                <label><input type="radio" name="1" id="x3">Это религеозные представления о создании мира</label>
+            </div>
+
+            <div class="question">
+                2-Каково было представление о мире у древних Египтян?
+                <label><input type="radio" name="2" id="x4">Представляли Землю плоской, а небо – купол, они считали, сделанным из твёрдого металла</label>
+                <label><input type="radio" name="2" id="x5">Представляли Землю плоской, а небо –  куполом, а с краю света находятся четыре высокие горы</label>
+                <label><input type="radio" name="2" id="x6">Считали землю диском окружённым морем, из которого каждый вечер выходят и в которое каждое утро садятся звёзды</label>
+            </div>
+
+            <div class="question">
+                3-Что из себя представляет система мира по Аристотелю?
+                <label><input type="radio" name="3" id="x7">Земля имеет форму шара, является центром мира, а небесные светила вращаются вокруг неё</label>
+                <label><input type="radio" name="3" id="x8">Аристотель считал, что Земля плоская и крутится вокруг светила</label>
+                <label><input type="radio" name="3" id="x9">Земля имеет форму шара и крутится вокруг светила</label>
+            </div>
+
+            <div class="question">
+                4-Какой из народов представлял Землю, согласно данной схеме?
+                <label><input type="radio" name="4" id="x10">Греки</label>
+                <label><input type="radio" name="4" id="x11">Народы междуречья</label>
+                <label><input type="radio" name="4" id="x12">Индусы</label>
+            </div>
+
+            <div class="question">
+                5-Кто из ученых в 16 веке понял, что Земля круглая, и что Солнце находится в центре нашей системы?
+                <label><input type="radio" name="5" id="x13">Аристотель</label>
+                <label><input type="radio" name="5" id="x14">Птолемей</label>
+                <label><input type="radio" name="5" id="x15">Николай Коперник</label>
+            </div>
+
+            <div class="question">
+                6-Кто предложил и дополнил геоцентрическую модель Солнечной системы?
+                <label><input type="radio" name="6" id="x16">Философы древней Греции и Клавдий Птолемей</label>
+                <label><input type="radio" name="6" id="x17">Народы древней Индии и Аристотель</label>
+                <label><input type="radio" name="6" id="x18">Мыслители древнего Египта и Николай Коперник</label>
+            </div>
+
+            <div class="question">
+                7-Почему Аристотель считал, что Земля является центром мира?
+                <label><input type="radio" name="7" id="x19">Объяснял это при помощи эксперимента с телегой и инерции</label>
+                <label><input type="radio" name="7" id="x20">Думал, что все предметы падают вниз потому что Земля, является центром вселенной</label>
+                <label><input type="radio" name="7" id="x21">Думал так из-за религиозных убеждений</label>
+            </div>
+
+            <div class="question">
+                8-Как по представлениям Гелиоцентрической системы движется Земля?
+                <label><input type="radio" name="8" id="x22">Находится в центре мира и вращается по своей оси</label>
+                <label><input type="radio" name="8" id="x23">Вращается вокруг Солнца, но не крутится по своей оси</label>
+                <label><input type="radio" name="8" id="x24">Вращается вокруг Солнца и вращается вокруг своей оси</label>
+            </div>
+
+            <div class="question">
+                9-За какое время по представлениям Коперника Меркурий проходит по орбите?
+                <label><input type="radio" name="9" id="x25">27 суток</label>
+                <label><input type="radio" name="9" id="x26">88 суток</label>
+                <label><input type="radio" name="9" id="x27">12 059 лет</label>
+            </div>
+
+            <div class="question">
+                10-Почему в конце концов утвердилась Гелиоцентрическая система мира?
+                <label><input type="radio" name="10" id="x28">Потому что со временем ученые полностью раскритиковали геоцентрическую модель</label>
+                <label><input type="radio" name="10" id="x29">Она нашла отклик в церкви</label>
+                <label><input type="radio" name="10" id="x30">Потому что её подтвердили Галилео Галилей, Исаак Ньютон, Иоганн Кеплер</label>
+            </div>
+
+            <div class="question">
+                11-С какого момента людям знакома конфигурация планет?
+                <label><input type="radio" name="11" id="x31">Начиная со средних веков</label>
+                <label><input type="radio" name="11" id="x32">С древних времён</label>
+                <label><input type="radio" name="11" id="x33">С новейшего времени</label>
+            </div>
+
+            <div class="question">
+                12-Назовите 2 вида соединений внутренних планет:
+                <label><input type="radio" name="12" id="x34">Средние и верхние</label>
+                <label><input type="radio" name="12" id="x35">Нижние и средние</label>
+                <label><input type="radio" name="12" id="x36">Верхние и нижние</label>
+            </div>
+
+            <div class="question">
+                13-Каким должен быть угол между планетными телами и земной точкой что бы планета находилась в квадратуре?
+                <label><input type="radio" name="13" id="x37">90 градусов</label>
+                <label><input type="radio" name="13" id="x38">Меньше 90 градусов</label>
+                <label><input type="radio" name="13" id="x39">Больше 90 градусов3</label>
+            </div>
+
+            <div class="question">
+                14-Отчего зависит конфигурация планет?
+                <label><input type="radio" name="14" id="x40">От массы звезды и удаленности планеты от светила.</label>
+                <label><input type="radio" name="14" id="x41">От массы планеты и количества спутников</label>
+                <label><input type="radio" name="14" id="x42">От вращения планеты вокруг солнца и от собственного движения</label>
+            </div>
+
+            <div class="question">
+                15-Что отражает сидерический период?
+                <label><input type="radio" name="15" id="x43">Время между взаимным положением солнца и планет</label>
+                <label><input type="radio" name="15" id="x44">Время затраченное на одно обращение планеты вокруг Солнца</label>
+                <label><input type="radio" name="15" id="x45">Положение планеты в системе</label>
+            </div>
+
+            <div class="question">
+                16-Форма орбиты космического тела:
+                <label><input type="radio" name="16" id="x46">Круг</label>
+                <label><input type="radio" name="16" id="x47">Овал</label>
+                <label><input type="radio" name="16" id="x48">Эллипс</label>
+            </div>
+
+            <div class="question">
+                17-По какому принципу (в рамках солнечной системы) рассчитывается расстояние между объектами?
+                <label><input type="radio" name="17" id="x49">От центра Земли до центра небесного тела</label>
+                <label><input type="radio" name="17" id="x50">От поверхности Земли до поверхности другой планеты</label>
+                <label><input type="radio" name="17" id="x51">От орбиты Земли до орбиты небесного тела</label>
+            </div>
+            <div class="question">
+                18-Экваториальный радиус Земли равен:
+                <label><input type="radio" name="18" id="x52">6378 км</label>
+                <label><input type="radio" name="18" id="x53">3396 км</label>
+                <label><input type="radio" name="18" id="x54">6052 км</label>
+            </div>
+
+            <div class="question">
+                19-Во сколько километров Аристотель оценил радиус Земли?
+                <label><input type="radio" name="19" id="x55">10000</label>
+                <label><input type="radio" name="19" id="x56">100000</label>
+                <label><input type="radio" name="19" id="x57">1000</label>
+            </div>
+
+            <div class="question">
+                20-ак Аристарх Самосский определял расстояние от Луны до Солнца?
+                <label><input type="radio" name="20" id="x58">Определял через лунные фазы</label>
+                <label><input type="radio" name="20" id="x59">Вычислял при помощи данных из телескопа</label>
+                <label><input type="radio" name="20" id="x60">Определил на основе математического расчета</label>
+            </div>
+
+            <div class="question">
+                21-Что позволило в 1969г. произвести лазерную локацию Луны?
+                <label><input type="radio" name="21" id="x61">Квантовый генератор</label>
+                <label><input type="radio" name="21" id="x62">Более мощное увеличительное стекло</label>
+                <label><input type="radio" name="21" id="x63">Присутствие астронавтов Apollo 11 на Луне</label>
+            </div>
+
+            <div class="question">
+                22-Что означает астрономическая единица?
+                <label><input type="radio" name="22" id="x64">Расстояние от Земли до Солнца</label>
+                <label><input type="radio" name="22" id="x65">Расстояние от Солнца до Нептуна</label>
+                <label><input type="radio" name="22" id="x66">Диаметр солнечной системы</label>
+            </div>
+
+            <div class="question">
+                23-Для чего используется а.е.?
+                <label><input type="radio" name="23" id="x67">Для измерения расстояния между телами Солнечной системы</label>
+                <label><input type="radio" name="23" id="x68">Для измерения расстояния до небесных тел, находящихся за пределами Солнечной системы</label>
+                <label><input type="radio" name="23" id="x69">Для измерения скорости света</label>
+            </div>
+
+            <div class="question">
+                24-Скорость света равна:
+                <label><input type="radio" name="24" id="x70">300 000 км/сек</label>
+                <label><input type="radio" name="24" id="x71">400 000 км/сек</label>
+                <label><input type="radio" name="24" id="x72">500 000 км/сек</label>
+            </div>
+
+            <div class="question">
+                25-Расстояние от Солнца до Меркурия:
+                <label><input type="radio" name="25" id="x73">0,387 а.е.</label>
+                <label><input type="radio" name="25" id="x74">39,75 а.е.</label>
+                <label><input type="radio" name="25" id="x75">1,52 а.e.</label>
+            </div>
+
+            <div class="question">
+                26-В каком расстоянии от Земли находится Проксима Центавра в а.е.?
+                <label><input type="radio" name="26" id="x76">4,26</label>
+                <label><input type="radio" name="26" id="x77">4,62</label>
+                <label><input type="radio" name="26" id="x78">5,48</label>
+            </div>
+
+            <div class="question">
+                27-Какой астроном сформулировал законы движения планет?
+                <label><input type="radio" name="27" id="x79">Исаак Ньютон</label>
+                <label><input type="radio" name="27" id="x80">Эдмунд Галлей</label>
+                <label><input type="radio" name="27" id="x81">Иоганн Кеплер</label>
+            </div>
+
+            <div class="question">
+                28-Чему равно ускорение силы тяжести на поверхности Земли?
+                <label><input type="radio" name="28" id="x82">9,8 м/с2</label>
+                <label><input type="radio" name="28" id="x83">8,7 м/с2</label>
+                <label><input type="radio" name="28" id="x84">10,5 м/с2</label>
+            </div>
+
+            <div class="question">
+                29-На каком расстоянии находится Луна от Земли (в ее радиусах)?
+                <label><input type="radio" name="29" id="x85">60</label>
+                <label><input type="radio" name="29" id="x86">70</label>
+                <label><input type="radio" name="29" id="x87">50</label>
+            </div>
+
+            <div class="question">
+                30-Чему равно ускорение Луны?
+                <label><input type="radio" name="30" id="x88">0,0027 м/с2</label>
+                <label><input type="radio" name="30" id="x89">0,0037 м/с2</label>
+                <label><input type="radio" name="30" id="x90">0,0017 м/с2</label>
+            </div>
+
+            <div class="question">
+                31-Все тела во Вселенной .... с силой, прямо пропорциональной произведению их масс и обратно пропорциональной квадрату расстояния между ними.
+                <label><input type="radio" name="31" id="x91">Притягиваются друг к другу.</label>
+                <label><input type="radio" name="31" id="x92">Отталкиваются друг от друга.</label>
+                <label><input type="radio" name="31" id="x93">Никаким образом не взаимодействуют.</label>
+            </div>
+
+            <div class="question">
+                32-Какая планета имеет жидкое внешнее ядро?
+                <label><input type="radio" name="32" id="x94">Земля</label>
+                <label><input type="radio" name="32" id="x95">Юпитер</label>
+                <label><input type="radio" name="32" id="x96">Венера</label>
+            </div>
+
+            <div class="question">
+                33-Сколько лет назад сформировалась земля?
+                <label><input type="radio" name="33" id="x97">2023</label>
+                <label><input type="radio" name="33" id="x98">4,5-4,6 млрд.</label>
+                <label><input type="radio" name="33" id="x99">4,8-4,8 млрд.</label>
+            </div>
+
+            <div class="question">
+                34-Сколько процентов поверхности Земли занимает вода?
+                <label><input type="radio" name="34" id="x100">70,8</label>
+                <label><input type="radio" name="34" id="x101">60</label>
+                <label><input type="radio" name="34" id="x102">35,4</label>
+            </div>
+
+            <div class="question">
+                35-Чему равна средняя плотность Земли?
+                <label><input type="radio" name="35" id="x103">5,514×10 г/см³</label>
+                <label><input type="radio" name="35" id="x104">6,321×10 г/см³</label>
+                <label><input type="radio" name="35" id="x105">3,323×10 г/см³</label>
+            </div>
+
+            <div class="question">
+                36-Диаметр Земли у полюсов составляет?
+                <label><input type="radio" name="36" id="x106">14713,5 км</label>
+                <label><input type="radio" name="36" id="x107">12713,5 км</label>
+                <label><input type="radio" name="36" id="x108">13713,5 км</label>
+            </div>
+
+            <div class="question">
+                37-Какое государство первым вывело в космос искусственный спутник Земли?
+                <label><input type="radio" name="37" id="x109">Союз Советских Социалистических Республик</label>
+                <label><input type="radio" name="37" id="x110">Соединенные Штаты Америки</label>
+                <label><input type="radio" name="37" id="x111">Китай</label>
+            </div>
+
+            <div class="question">
+                38-При каком показателе тело может покинуть Земную атмосферу?
+                <label><input type="radio" name="38" id="x112">Большая начальная скорость.</label>
+                <label><input type="radio" name="38" id="x113">Небольшой вес.</label>
+                <label><input type="radio" name="38" id="x114">Хорошая аэродинамика тела.</label>
+            </div>
+
+            <div class="question">
+                39-ормула скорости, с которой должно лететь тело, чтобы стать искусственным спутником Земли.
+                <label><input type="radio" name="39" id="x115">F=ma</label>
+                <label><input type="radio" name="39" id="x116">F=mg</label>
+                <label><input type="radio" name="39" id="x117">m=Vρ</label>
+            </div>
+
+            <div class="question">
+                40-Для чего нужна данная формула?
+                <label><input type="radio" name="40" id="x118">Для измерения центростремительной силы</label>
+                <label><input type="radio" name="40" id="x119">Для измерения тяжести тела пытающегося покинуть атмосферу</label>
+                <label><input type="radio" name="40" id="x120">Для измерения ускорения при котором тело может выйти из атмосферы</label>
+            </div>
+
+            <button class="btn btn--left checkAnswers">Проверить ответы</button>
+
+        </div> <!-- Container -->
+    </div>
+
+    <div class="test-result hidden">
+        <div class="container">
+            <div class="test__title">Результаты теста</div>
+            <div class="result__count"></div>
+            <button class="btn showTrueAnswers">Показать правильные ответы</button>
+
+            <div class="test-result__true-answers hidden">
+                <div class="question">
+                    1-Система мира:
+                    <label class="anst">Это представление о расположении в пространстве и движении небесных тел</label>
+                    <label>Это представление о масштабах вселенной</label>
+                    <label>Это религеозные представления о создании мира</label>
+                </div>
+                
+                <div class="question">
+                    2-Каково было представление о мире у древних Египтян
+                    <label>Представляли Землю плоской, а небо – купол, они считали, сделанным из твёрдого металла</label>
+                    <label class="anst">Представляли Землю плоской, а небо — куполом, а с краю света находятся четыре высокие горы</label>
+                    <label>Считали землю диском окружённым морем, из которого каждый вечер выходят и в которое каждое утро садятся звёзды</label>
+                </div>
+
+                <div class="question">
+                    3-Что из себя представляет система мира по Аристотелю?
+                    <label class="anst">Земля имеет форму шара, является центром мира, а небесные светила вращаются вокруг неё</label>
+                    <label>Аристотель считал, что Земля плоская и крутится вокруг светила</label>
+                    <label>Земля имеет форму шара и крутится вокруг светила</label>
+                </div>
+
+                <div class="question">
+                    4-Какой из народов представлял Землю, согласно данной схеме?
+                    <label>Греки</label>
+                    <label>Народы междуречья</label>
+                    <label class="anst">Индусы</label>
+                </div>
+
+                <div class="question">
+                    5-Кто из ученых в 16 веке понял, что Земля круглая, и что Солнце находится в центре нашей системы?
+                    <label>Аристотель</label>
+                    <label>Птолемей</label>
+                    <label class="anst">Николай Коперник</label>
+                </div>
+
+                <div class="question">
+                    6-Кто предложил и дополнил геоцентрическую модель Солнечной системы?
+                    <label>Философы древней Греции и Клавдий Птолемей</label>
+                    <label>Народы древней Индии и Аристотель</label>
+                    <label class="anst">Мыслители древнего Египта и Николай Коперник</label>
+                </div>
+                
+                <div class="question">
+                    7-Почему Аристотель считал, что Земля является центром мира?
+                    <label>Объяснял это при помощи эксперимента с телегой и инерции</label>
+                    <label class="anst">Думал, что все предметы падают вниз потому что Земля, является центром вселенной</label>
+                    <label>Думал так из-за религиозных убеждений</label>
+                </div>
+
+                <div class="question">
+                    8-Как по представлениям Гелиоцентрической системы движется Земля?
+                    <label>Находится в центре мира и вращается по своей оси</label>
+                    <label>Вращается вокруг Солнца, но не крутится по своей оси</label>
+                    <label class="anst">Вращается вокруг Солнца и вращается вокруг своей оси</label>
+                </div>
+
+                <div class="question">
+                    9-За какое время по представлениям Коперника Меркурий проходит по орбите?
+                    <label>27 суток</label>
+                    <label class="anst">88 суток</label>
+                    <label>12 059 лет</label>
+                </div>
+
+                <div class="question">
+                    10-Почему в конце концов утвердилась Гелиоцентрическая система мира?
+                    <label>Потому что со временем ученые полностью раскритиковали геоцентрическую модель</label>
+                    <label>Она нашла отклик в церкви</label>
+                    <label class="anst">Потому что её подтвердили Галилео Галилей, Исаак Ньютон, Иоганн Кеплер</label>
+                </div>
+                <div class="question">
+                    11-С какого момента людям знакома конфигурация планет?
+                    <label>Начиная со средних веков</label>
+                    <label class="anst">С древних времён</label>
+                    <label>С новейшего времени</label>
+                </div>
+
+                <div class="question">
+                    12-Назовите 2 вида соединений внутренних планет:
+                    <label>Средние и верхние</label>
+                    <label>Нижние и средние</label>
+                    <label class="anst">Верхние и нижние</label>
+                </div>
+
+                <div class="question">
+                    13-Каким должен быть угол между планетными телами и земной точкой что бы планета находилась в квадратуре?
+                    <label class="anst">90 градусов</label>
+                    <label>Меньше 90 градусов</label>
+                    <label>Больше 90 градусов</label>
+                </div>
+                
+                <div class="question">
+                    14-Отчего зависит конфигурация планет?
+                    <label>От массы звезды и удаленности планеты от светила</label>
+                    <label>От массы планеты и количества спутников</label>
+                    <label class="anst">От вращения планеты вокруг солнца и от собственного движения</label>
+                </div>
+
+                <div class="question">
+                    15-Что отражает сидерический период?
+                    <label>Время между взаимным положением солнца и планет.</label>
+                    <label class="anst">Время затраченное на одно обращение планеты вокруг Солнца</label>
+                    <label>Положение планеты в системе</label>
+                </div>
+
+                <div class="question">
+                    16-Форма орбиты космического тела:
+                    <label>Круг</label>
+                    <label>Овал</label>
+                    <label class="anst">Эллипс</label>
+                </div>
+               
+                <div class="question">
+                    17-По какому принципу (в рамках солнечной системы) рассчитывается расстояние между объектами?
+                    <label class="anst">От центра Земли до центра небесного тела</label>
+                    <label>От поверхности Земли до поверхности другой планеты</label>
+                    <label>От орбиты Земли до орбиты небесного тела</label>
+                </div>
+
+                <div class="question">
+                    18-Экваториальный радиус Земли равен:
+                    <label class="anst">6378 км.</label>
+                    <label>3396 км.</label>
+                    <label>6052 км.</label>
+                </div>
+
+                <div class="question">
+                    19-Во сколько километров Аристотель оценил радиус Земли?
+                    <label class="anst">10000</label>
+                    <label>100000</label>
+                    <label>1000</label>
+                </div>
+
+                <div class="question">
+                    20-ак Аристарх Самосский определял расстояние от Луны до Солнца?
+                    <label class="anst">Определял через лунные фазы</label>
+                    <label>Вычислял при помощи данных из телескопа</label>
+                    <label>Определил на основе математического расчета</label>
+                </div>
+                
+                <div class="question">
+                    21-Что позволило в 1969г. произвести лазерную локацию Луны?
+                    <label class="anst">Квантовый генератор</label>
+                    <label>Более мощное увеличительное стекло</label>
+                    <label>Присутствие астронавтов Apollo 11 на Луне</label>
+                </div>
+
+                <div class="question">
+                    22-Что означает астрономическая единица?
+                    <label class="anst">Расстояние от Земли до Солнца</label>
+                    <label>Расстояние от Солнца до Нептуна</label>
+                    <label>Диаметр солнечной системы</label>
+                </div>
+
+                <div class="question">
+                    23-Для чего используется а.е.?
+                    <label class="anst">Для измерения расстояния между телами Солнечной системы</label>
+                    <label>Для измерения расстояния до небесных тел, находящихся за пределами Солнечной системы</label>
+                    <label>Для измерения скорости света</label>
+                </div>
+
+                <div class="question">
+                    24-Скорость света равна:
+                    <label class="anst">300 000 км/сек</label>
+                    <label>400 000 км/сек</label>
+                    <label>500 000 км/сек</label>
+                </div>
+
+                <div class="question">
+                    25-Расстояние от Солнца до Меркурия:
+                    <label class="anst">0,387 а.е.</label>
+                    <label>39,75 а.е.</label>
+                    <label>1,52 а.e.</label>
+                </div>
+
+                <div class="question">
+                    26-В каком расстоянии от Земли находится Проксима Центавра в а.е.?
+                    <label class="anst">4,26</label>
+                    <label>4,62</label>
+                    <label>5,48</label>
+                </div>
+
+                <div class="question">
+                    27-Какой астроном сформулировал законы движения планет?
+                    <label>Исаак Ньютон</label>
+                    <label>Эдмунд Галлей</label>
+                    <label class="anst">Иоганн Кеплер</label>
+                </div>
+
+                <div class="question">
+                    28-Чему равно ускорение силы тяжести на поверхности Земли?
+                    <label class="anst">9,8 м/с2</label>
+                    <label>8,7 м/с2</label>
+                    <label>10,5 м/с2</label>
+                </div>
+
+                <div class="question">
+                    29-На каком расстоянии находится Луна от Земли (в ее радиусах)?
+                    <label class="anst">60</label>
+                    <label>70</label>
+                    <label>50</label>
+                </div>
+
+                <div class="question">
+                    30-Чему равно ускорение Луны?
+                    <label class="anst">0,0027 м/с2</label>
+                    <label>0,0037 м/с2</label>
+                    <label>0,0017 м/с2</label>
+                </div>
+                <div class="question">
+                    31-Все тела во Вселенной .... с силой, прямо пропорциональной произведению их масс и обратно пропорциональной квадрату расстояния между ними.
+                    <label class="anst">Притягиваются друг к другу</label>
+                    <label>Отталкиваются друг от друга</label>
+                    <label>Никаким образом не взаимодействуют</label>
+                </div>
+
+                <div class="question">
+                    32-Какая планета имеет жидкое внешнее ядро?
+                    <label class="anst">Земля</label>
+                    <label>Юпитер</label>
+                    <label>Венера</label>
+                </div>
+
+                <div class="question">
+                    33-Сколько лет назад сформировалась земля?
+                    <label>2023</label>
+                    <label class="anst">4,5-4,6 млрд.</label>
+                    <label>4,8-4,8 млрд.</label>
+                </div>
+
+                <div class="question">
+                    34-Сколько процентов поверхности Земли занимает вода?
+                    <label class="anst">70,8</label>
+                    <label>60</label>
+                    <label>35,4</label>
+                </div>
+                
+                <div class="question">
+                    35-Чему равна средняя плотность Земли?
+                    <label class="anst">5,514×10 г/см³</label>
+                    <label>6,321×10 г/см³</label>
+                    <label>3,323×10 г/см³</label>
+                </div>
+
+                <div class="question">
+                    36-Диаметр Земли у полюсов составляет?
+                    <label>14713,5 км</label>
+                    <label class="anst">12713,5 км</label>
+                    <label>13713,5 км</label>
+                </div>
+
+                <div class="question">
+                    37-Какое государство первым вывело в космос искусственный спутник Земли?
+                    <label class="anst">Союз Советских Социалистических Республик</label>
+                    <label>Соединенные Штаты Америки</label>
+                    <label>Китай</label>
+                </div>
+
+                <div class="question">
+                    38-При каком показателе тело может покинуть Земную атмосферу?
+                    <label class="anst">Большая начальная скорость</label>
+                    <label>Небольшой вес</label>
+                    <label>Хорошая аэродинамика тела</label>
+                </div>
+
+                <div class="question">
+                    39-ормула скорости, с которой должно лететь тело, чтобы стать искусственным спутником Земли.
+                    <label class="anst">F=ma</label>
+                    <label>F=mg</label>
+                    <label>m=Vρ</label>
+                </div>
+
+                <div class="question">
+                    40-Для чего нужна данная формула?
+                    <label class="anst">Для измерения центростремительной силы</label>
+                    <label>Для измерения тяжести тела пытающегося покинуть атмосферу</label>
+                    <label>Для измерения ускорения при котором тело может выйти из атмосферы</label>
+                </div>
+
+            </div>
+        </div> <!-- Container -->
+    </div>
+    
+
+    <footer>
+        <div class="container">
+            Astronomic School &copy; 2022
+        </div>
+    </footer>
+
+    <div class="greeting-screen">
+        <div class="container">
+            <div class="greeting__title">Astronomic<br>School</div>
+
+            <div class="greeting-name"></div>
+            <div class="btn btn--greeting">Начать</div>
+        </div> <!-- Container -->
+    </div>
+    
+    <script src="/Astronomicschool/assets/js/global-vars.js"></script>
+    <script src="/Astronomicschool/assets/js/theme.js"></script>
+    <script src="/Astronomicschool/assets/js/greeting.js"></script>
+    <script src="/Astronomicschool/assets/js/profile.js"></script>
+    <script src="/Astronomicschool/assets/js/burger.js"></script>
+    <script src="/Astronomicschool/assets/js/maintest.js"></script>
+</body>
+</html>
